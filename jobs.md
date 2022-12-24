@@ -1,19 +1,19 @@
-# Jobs
+---
+layout: page
+title: Jobs
+permalink: /jobs/
+---
 
-## Family Liaison
+These jobs are not necessarily all at Oinam or its related entities. Many of the jobs are for friends, and their companies. We have decided to have it here as special directions for the ones that we like to help out.
 
-- How
-	+ Remote / Work from Anywhere
-	+ ₹50,000
-	+ Free Internet + Phone
-- Roles
-	+ Find out details
-	+ Keep communication in sync
-	+ Make sure taxes are paid
-	+ Work with other service providers to make sure they are doing their work on time.
-	+ Bills are paid on time.
-	+ Look for opportunities that aligns with the family philosophy and initiatives
-- Criteria
-	+ Smart and willing to learn
-	+ Believes that it is always figureotable
-	+ Computer savvy, without the need to be technical
+Apply: Email `jobs@oinam.com`
+
+## Oinam
+
+- [under construction]
+
+---
+
+## Others
+
+- [Python, FullStack Developer](/jobs/2022-10-13-developer-python-frontend-remote/)  (open, active) posted on Oct 13, 2022.

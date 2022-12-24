@@ -1,3 +1,0 @@
-# Oinam Brand
-
-## Color
