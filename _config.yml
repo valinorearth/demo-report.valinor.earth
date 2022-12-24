@@ -32,7 +32,6 @@ optional_front_matter:
 plugins:
   - jekyll-optional-front-matter
   - jekyll-remote-theme
-  - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-browsersync
 
