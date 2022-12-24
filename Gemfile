@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gem "jekyll", ">= 3.8.5", "< 5.0"
+gem 'bundler', '2.2.21'
+gem "jekyll", ">= 3.9.0", "< 5.0"
 
 group :jekyll_plugins do
   gem "jekyll-optional-front-matter"
