@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Email `(hi@oinam.com)` is always the first and best communication medium, and we are happy to get yours. We love thoughtful emails and would definitely reply. Please, tell me know who you are and your message be clear, and if you have a specific ask, an offer, an actionable item, or, well perhaps just a “Hi”.
+Email `(hi@oinam.com)` is always the first and best communication medium, and we are happy to get yours. We love thoughtful emails and would definitely reply. Please, tell us who you are and your message be clear, and if you have a specific ask, an offer, an actionable item, or, well perhaps just a “Hi”.
 
 ---
 
