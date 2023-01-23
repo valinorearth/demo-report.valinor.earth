@@ -1,9 +1,8 @@
-# Oinam Liaison
+# Oinam Liaison (India)
 
 - How
 	+ Remote / Work from Anywhere
-	+ ₹50,000
-	+ Free Internet + Phone
+	+ ₹6,00,000 annually
 - Roles
 	+ Research - Find out details.
 	+ Keep communication in sync.
@@ -13,5 +12,5 @@
 	+ Look for opportunities that aligns with the family philosophy and initiatives.
 - Criteria
 	+ Smart and willing to learn.
-	+ Believes that it is always figureotable.
-	+ Computer savvy, without the need to be technical.
+	+ Believes that it is always `figureoutable`.
+	+ Computer and Internet savvy, without the need to be technical.

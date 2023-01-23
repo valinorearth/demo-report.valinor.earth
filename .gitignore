@@ -5,6 +5,8 @@
 .sass-cache
 Gemfile.lock
 
+_site
+
 # Ignore OS generated files #
 .DS_Store*
 ehthumbs.db
