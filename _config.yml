@@ -15,7 +15,7 @@ layout:
   link_new_tab: false
 
 styles:
-  font_family: sans # serif, sans (default)
+  font_family: mixed-serif
   forms: true
   syntax_highlighter: false # Code Syntax Highlighter
 
