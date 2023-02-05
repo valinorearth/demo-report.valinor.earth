@@ -10,14 +10,10 @@ footer:
 markdown: kramdown
 permalink: pretty
 
-layout:
-  theme: vintage # default, vintage, nord
-  link_new_tab: false
-
 styles:
   font_family: mixed-serif
   forms: true
-  syntax_highlighter: false # Code Syntax Highlighter
+  syntax_highlighter: false
 
 defaults:
   - scope:
