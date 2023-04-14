@@ -16,6 +16,13 @@ Remote sensing data from satellites has revolutionized the analysis of climate c
 
 ### Data Sources
 
+<figure class="content-medium">
+  <img src="https://picsum.photos/1000/600" alt="Image Alt" loading="lazy">
+  <figcaption>
+    A picture caption that details what this picture is about.
+  </figcaption>
+</figure>
+
 Sentinel-2, launched in 2015 as part of the Copernicus program, is a satellite equipped with a multispectral sensor that provides high-resolution imagery and data. It has 13 spectral channels and a spatial resolution of 10-60 meters in VNIR and SWIR regions, enabling vegetation monitoring and minimizing atmospheric effects. With a 785 km orbit height, two satellites allow for repeated surveys every 5 days at the equator.
 
 Landsat 9, launched on Sep 27, 2021, is the latest addition to the Landsat program, which has been providing Earth remote sensing data since 1972. Landsat 9 and its virtual twin, Landsat 8, operate in a tandem formation, imaging the Earth's surface over 16-day periods with an 8-day phase difference. The initial on-orbit verification (OIV) period included an underfly maneuver where Landsat 9 flew underneath Landsat 8, allowing for cross-calibration of the instruments. The satellites are equipped with the same Operational Land Imagers (OLI) with a ground sample distance of 30 meters, but OLI-2 on Landsat 9 downloads all 14 bits of image data, compared to 12 bits on OLI. Landsat 9 also has enhancements in radiometric calibration and a baffle in its Thermal Infrared Sensor (TIRS-2) to mitigate stray-light issues. The data from Landsat 9 and Landsat 8 is crucial for various geospatial and remote sensing applications, such as land use and land cover change, natural resource monitoring, and climate change assessment.
@@ -36,13 +43,15 @@ The study utilized a novel approach that combined neural-based and object-based 
 
 Unlike traditional RF classifiers that build a single tree, each tree in ANN_RF was built individually using packing and randomness features, resulting in a forest that was unrelated to the expectations of the individual trees. This approach was applied to LULC classification using Landsat-8 and Sentinel-2A satellite data, which were obtained for the study area before and after preprocessing, as described in detail in the following section.
 
-The proposed classifier ANN_RF was implemented in SAGA software for LULC classification and its accuracy was assessed. A change matrix with a polygon/grid to identify LULC changes in the Imphal area near the border between India and Mianmar, with a spatial resolution of 30 meters from Landsat-8 and Sentinel-2A satellites.
+The proposed classifier ANN_RF was implemented in SAGA software for LULC classification and its accuracy was assessed. A change matrix with a polygon/grid to identify LULC changes in the Imphal area near the border between India and Myanmar, with a spatial resolution of <mark>30 meters</mark> from Landsat-8 and Sentinel-2A satellites.
 
 
 ## Conclusion
 
 The analysis of geospatial and remote sensing data reveals multiple vegetation and forestation patterns, both cyclical and non-cyclical in nature. Using advanced techniques from artificial intelligence (AI), machine learning (ML), and deep learning (DL) disciplines, the study identifies seasonal patterns showing a consistent decrease in vegetation from December to May. However, the impact of weather variations on this period is found to be inconsistent, which can be attributed to the effects of climate change.
 
-Furthermore, the study takes into account the fluctuations in impoundment levels in the Maphou Dam reservoir, close proximity to our first Carbon Removal Nature-Based Solutions, which have been found to cause minor variations in the number of detected vegetation and forest area pixels. These findings highlight the complex interactions between climate change, weather variations, and anthropogenic factors, and the importance of using advanced geospatial and remote sensing techniques to analyze and interpret such data.
+Furthermore, the study takes into account the fluctuations in impoundment levels in the Maphou Dam reservoir, close proximity to our first Carbon Removal Nature-Based Solutions, which have been found to cause minor variations in the number of detected vegetation and forest area pixels. 
+
+> These findings highlight the complex interactions between climate change, weather variations, and anthropogenic factors, and the importance of using advanced geospatial and remote sensing techniques to analyze and interpret such data.
 
 The use of deep learning algorithms, such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs), enables the identification and classification of vegetation and forestation patterns with high accuracy. Additionally, the study employs advanced geospatial analysis techniques, such as normalized difference vegetation index (NDVI) and principal component analysis (PCA), to extract meaningful information from the remote sensing data. These findings contribute to our understanding of the complex dynamics of vegetation and forestation patterns, and provide valuable insights for monitoring and managing ecosystems in the context of climate change and human activities.
