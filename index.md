@@ -27,7 +27,7 @@ Landsat 9[^landsat-9], launched on Sep 27, 2021, is the latest addition to the L
 The input layer of the model received geospatial and remote sensing data, which was then passed to the hidden layers. The interconnection between the layers assigned weights to each input in a random manner, which were adjusted during the training process. Bias was applied to each input neuron, and the weighted total, a combination of weights and preferences, was conveyed through the activation function. The activation function determined which node in the hidden layers should be used for feature extraction and computed the output accordingly. The model weights were updated during the training process to optimize the prediction process.
 
 <figure class="content-medium">
-  <img src="/static/img/2023RGB_low2.png" loading="lazy">
+  <img src="/static/img/2023RGB_low2.jpg" loading="lazy">
   <figcaption>
     Lowest forest LULC (Land Use and Land Cover) detected.
   </figcaption>
@@ -38,7 +38,7 @@ The input data was converted into numerical form by the input nodes, with each n
 The output of the artificial neural network (ANN) was then passed to a random forest (RF) classifier. The RF approach involved randomly selecting n records from the dataset of ANN outputs, and individual decision trees were created for each sample. Each decision tree generated a result, and the simplest RF classifier with random features was created by randomly splitting a limited set of input variables at each node. The combination of the ANN and RF classifiers, referred to as ANN_RF, was found to yield the best results when using optimized hyperparameters.
 
 <figure class="content-medium">
-  <img src="/static/img/2022Soil2.png" loading="lazy">
+  <img src="/static/img/2022Soil2.jpg" loading="lazy">
   <figcaption>
     Analysis layer results of lowest forest LULC (Land Use and Land Cover) detected.
   </figcaption>
@@ -49,7 +49,7 @@ The suggested method aimed to merge the hyperparameters of the RF and ANN classi
 The study utilized a novel approach that combined neural-based and object-based methods for land use and land cover (LULC) classification. This approach, referred to as ANN_RF, accessed thousands and millions of simulated neurons in artificial neural networks (ANNs) to train the classifier. The input to the RF (Random Forest) classifier was generated through the implementation of ANN_RF in the SAGA software, using the outputs of the ANNs.
 
 <figure class="content-medium">
-  <img src="/static/img/2022RGB_High2.png" loading="lazy">
+  <img src="/static/img/2022RGB_High2.jpg" loading="lazy">
   <figcaption>
     Highest forest LULC (Land Use and Land Cover) detected.
   </figcaption>
@@ -58,13 +58,13 @@ The study utilized a novel approach that combined neural-based and object-based 
 Unlike traditional RF classifiers that build a single tree, each tree in ANN_RF was built individually using packing and randomness features, resulting in a forest that was unrelated to the expectations of the individual trees. This approach was applied to LULC classification using Landsat-8 and Sentinel-2A satellite data, which were obtained for the study area before and after preprocessing, as described in detail in the following section.
 
 <figure class="content-medium">
-  <img src="/static/img/2021Green4.png" loading="lazy">
+  <img src="/static/img/2021Green4.jpg" loading="lazy">
   <figcaption>
     Analysis layer results of highest forest LULC (Land Use and Land Cover) detected.
   </figcaption>
 </figure>
 
-The proposed classifier ANN_RF was implemented in SAGA software for LULC classification and its accuracy was assessed. A change matrix with a polygon/grid to identify LULC changes in the Imphal area near the border between India and Myanmar, with a spatial resolution of <mark>30 meters</mark> from Landsat-8 and Sentinel-2A satellites.
+The proposed classifier ANN_RF was implemented in SAGA software for LULC classification and its accuracy was assessed. A change matrix with a polygon/grid to identify LULC changes in the Imphal area near the border between India and Myanmar, with a spatial resolution of <mark>10-15 meters</mark> from Landsat-8 and Sentinel-2A satellites.
 
 ## Conclusion
 
@@ -79,15 +79,9 @@ The use of deep learning algorithms, such as convolutional neural networks (CNNs
 [//]: # Footnotes
 
 [^sentinel-2]: The Copernicus [SENTINEL-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) mission comprises a constellation of two polar-orbiting satellites placed in the same sun-synchronous orbit, phased at 180° to each other. It aims at monitoring variability in land surface conditions, and its wide swath width (290 km) and high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes) will support monitoring of Earth's surface changes.
-
 [^landsat-9]: [Landsat 9](https://landsat.gsfc.nasa.gov/satellites/landsat-9/) - a partnership between NASA and the U.S. Geological Survey— continues the Landsat program’s critical role in monitoring, understanding and managing the land resources needed to sustain human life.
-
+[^OLI-in]: The instrument level measurements of [OLI-2](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/oli-2-design/oli-2-relative-spectral-response/) were made using the Goddard Laser for Absolute Measurement of Radiance (GLAMR) facility. GLAMR consists of a system of tunable lasers that are fiber coupled to an integrating sphere, which can provide a near full field-of-view, uniform target for instrument characterization.
+[^OLI-out]: The [out-of-band spectral responses](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/oli-2-design/out-band-oli-2-relative-spectral-response/) were measured at the focal plane module level, when the detectors and the filters were mated but before the modules were assembled into a signal focal plane array. Individually, the modules were put in an evacuated Dewar, cooled to operational temperature and illuminated with monochromatic light.
+[^TIRS-design]: The [TIRS-2](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/tirs-2-design/) instrument is a two-band thermal imaging sensor with a push broom sensor (like OLI-2). Its focal plane has long arrays of photosensitive detectors.
+[^TIRS-spec]: The instrument-level spectral measurements of [TIRS-2](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/tirs-2-design/tirs-2-relative-spectral-response/) were made using a test configuration that has been upgraded and improved since the Landsat-8 TIRS instrument-level test.
 [^ndvi]: Landsat [Normalized Difference Vegetation Index](https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index) (NDVI) is used to quantify vegetation greenness and is useful in understanding vegetation density and assessing changes in plant health.
-
-[^OLI-in]: [IN-BAND OLI-2 RELATIVE SPECTRAL RESPONSE](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/oli-2-design/oli-2-relative-spectral-response/)
-
-[^OLI-out]: [OUT-OF-BAND OLI-2 RELATIVE SPECTRAL RESPONSE](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/oli-2-design/out-band-oli-2-relative-spectral-response/)
-
-[^TIRS-design]: [TIRS-2 DESIGN](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/tirs-2-design/)
-
-[^TIRS-spec]: [TIRS-2 RELATIVE SPECTRAL RESPONSE](https://landsat.gsfc.nasa.gov/satellites/landsat-9/landsat-9-instruments/tirs-2-design/tirs-2-relative-spectral-response/)
