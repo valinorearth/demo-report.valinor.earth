@@ -1,11 +1,13 @@
-title: Oinam
+title: Satellite Data Project Report
 description: ''
 
 remote_theme: oinam/oinam-jekyll
 
 footer:
   credit: false
-  custom: false
+  custom: true
+
+footer_custom: '© <script>document.write(new Date().getFullYear())</script>. All Rights Reserved. <a href="https://valinor.earth" target="_blank">Valinor Earth, Inc.</a>'
 
 markdown: kramdown
 permalink: pretty

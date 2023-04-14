@@ -1,16 +1,9 @@
-“Taking care of kids and women. Save the planet, curb climate change. Progress exponentially.”
+<div class="content-large"><iframe width="1200" height="675" src="https://www.youtube.com/embed/FMjuqpiuE3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-- [Story](https://story.oinam.com) about kids, parenting, and fun things at Oinam.
-- [Notes](https://notes.oinam.com) the digital garden of tit-bits, wiki-ish, data, learnings, and observations.
-- [brajeshwar.com](https://brajeshwar.com)
-- [Valinor Earth](https://valinor.earth) Curb Climate Change.
+## AI-Enhanced Satellite Imagery (2016 - 2023)
 
----
+In-house Machine Learning Analysis of Forestation Changes with 160GB of Satellite Data coerced from multiple sources (Landsat-8, Landsat-9, Sentinel-2) on multiple bands (RBG + Multi-Spectral).
 
-### Elsewhere
+## How
 
-- [Twitter](https://twitter.com/oinam)
-- [Instagram](https://www.instagram.com/oinam/)
-- [LinkedIn](https://www.linkedin.com/company/oinam/)
-- [Medium](https://medium.com/@oinam)
-- Github: [public](https://oinam.github.io) / [source](https://github.com/oinam)
+We broke down the visible (RBG) and non-visible (near infra-red) bands and enhanced their resolution using AI to feed into our proprietary classification and clustering  algorithm to detect land-cover and look for forestation changes.
